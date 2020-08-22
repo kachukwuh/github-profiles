@@ -1,0 +1,33 @@
+.profile-details .image-section img {
+  width: 100%;
+}
+
+.profile-details.card {
+  padding: 0.5rem;
+}
+
+.profile-details .image-section a {
+  display: inline-block;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.profile-details .contents h2 {
+  font-size: 3rem;
+  margin: 0 0 1rem;
+}
+
+.profile-details .contents p {
+  line-height: 1.2;
+  margin: 0.7rem 0;
+}
+
+.profile-details .contents .flow-text {
+  margin: 0.5rem 0;
+}
+
+.profile-details .contents .profile-icons {
+  display: flex;
+  align-content: center;
+  gap: 2rem;
+}
