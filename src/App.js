@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import SearchBar from './components/SearchBar';
 import ProfileDetails from './components/ProfileDetails';
 import ReposList from './components/ReposList';
+import Navbar from './components/Navbar';
+import './App.css';
 import axios from 'axios';
 
 class App extends Component {
@@ -33,7 +35,8 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="app container">
+        <Navbar />
         <SearchBar onFormSubmit={this.onFormSubmit} />
         <ProfileDetails
           profile={this.state.profile}

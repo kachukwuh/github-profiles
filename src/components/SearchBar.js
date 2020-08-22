@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './SearchBar.css';
 
 class SearchBar extends Component {
   state = { username: '' };
@@ -15,7 +16,7 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <div>
+      <div className="search-bar">
         <form onSubmit={this.onFormSubmit}>
           <div className="input-field col s12">
             <label htmlFor="username">Search Username</label>

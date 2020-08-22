@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  align-content: center;
+  /* justify-content: center; */
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.navbar h4 {
+  margin: 0;
+}
+
+.navbar p {
+  margin: 0.3rem 0;
+}
