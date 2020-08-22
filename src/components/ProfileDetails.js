@@ -1,8 +1,16 @@
 import React from 'react';
 import './ProfileDetails.css';
 
-const ProfileDetails = ({ profile }) => {
-  if (!profile.name) {
+const ProfileDetails = ({ profile, profileError }) => {
+  if (profileError) {
+    return (
+      <div className="col s12 m8 l8">
+        <h2>{profileError}</h2>
+      </div>
+    );
+  }
+
+  if (!profile.login) {
     return <div></div>;
   }
 
